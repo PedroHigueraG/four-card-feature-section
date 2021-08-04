@@ -24,6 +24,7 @@ body{
     background-color: var(--very-Light-Gray);
     padding: 8rem 3rem;
     font-size: 1.5rem;
+    width: 100%;
 }
 span{
     font-size: 2.4rem;
@@ -82,4 +83,21 @@ img{
 }
 .calculator{
     border-color: var(--blue);
+}
+/* reponsive */
+@media screen and (min-width:1440px) {
+    span,h1{
+        font-size: 4rem;
+    }
+    .info{
+        max-width: 55rem;
+    }
+    .cards{
+        flex-direction: row;
+        align-items: center;
+    }
+    .card{
+        width: 38rem;
+        margin: 3rem 1.5rem;
+    }
 }
